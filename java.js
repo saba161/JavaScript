@@ -8,7 +8,7 @@ var car = mycar["year"];
 alert(car);
 var car1 = mycar["model"];
 alert(car1);
-*/
+
 var football = {
 	"players" : {
 		"goal" : {
@@ -24,3 +24,4 @@ var football = {
 
 var foot = football.players.goal["cxriani"];
 alert(foot);
+*/
