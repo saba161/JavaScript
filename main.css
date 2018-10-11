@@ -3,6 +3,7 @@ body {
 }
 
 .calculator {
+  
   width: 100%;
   text-align: center;
 }
@@ -12,4 +13,3 @@ button {
   height: 50px;
   margin: 5px;
 }
-
