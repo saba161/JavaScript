@@ -1,5 +1,5 @@
 body {
-  /* background: #7B09DF; */
+   background: #7B09DF;
 }
 
 .calculator {
@@ -9,6 +9,8 @@ body {
 
 /* Кнопки */
 button {
+  background: #3C3838;
+  border: none;
   cursor: pointer;
   width: 50px;
   height: 50px;
@@ -17,18 +19,25 @@ button {
 
 /* Округление кнопков */
 .circle {
-  border-color: #A5A5A5;
+  background: #A5A5A5;
   border-radius: 20px;
   border-background: red;
 }
 
 /* пойсковая строка */
 .search {
+  font-size: 40px;
   border: 0;
-  width: 237px;
+  border-radius: 7px;
+  width: 239px;
   height: 30px;
 }
 
+.section {
+
+}
+
 hr {
+  color: #B021DB;
   width: 237px;
 }
