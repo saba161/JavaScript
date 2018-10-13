@@ -11,7 +11,7 @@ body {
 button {
   background: #3C3838;
   border: none;
-  cursor: pointer;
+  cursor: pointer none;
   width: 50px;
   height: 50px;
   margin: 5px;
@@ -37,7 +37,10 @@ button {
 
 }
 
+#equals {
+  background: #FE7904;
+}
+
 hr {
-  color: #B021DB;
   width: 237px;
 }
