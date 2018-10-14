@@ -1,4 +1,5 @@
 body {
+  margin: 100px;
    background: #7B09DF;
 }
 
@@ -41,12 +42,17 @@ button:hover {
 }
 
 /* пойсковая строка */
-.search {
-  font-size: 40px;
+.display {
   border: 0;
   border-radius: 7px;
   width: 269px;
   height: 35px;
+  border: 1px solid darkslateblue;
+  padding: 4px 2px;
+  text-align: right;
+  font: 700 16px/1 Arial, sans-serif;
+  color: darkslateblue;
+  background-color: whitesmoke;
 }
 
 .icon {
@@ -55,7 +61,7 @@ button:hover {
 }
 
 .section {
-
+  margin: 7px 0;
 }
 
 #equals {
@@ -64,4 +70,9 @@ button:hover {
 
 hr {
   width: 267px;
+}
+
+.calculator__form {
+  height: 100%;
+  padding: 20px;
 }
