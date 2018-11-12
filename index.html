@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<script src="java.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 	<body>
@@ -20,14 +21,14 @@
 				</button>
 			</div>
 		  	<div class="section">
-		  		<button class="num" data-num="7">7</button>
-			    <button class="num" data-num="8">8</button>
-			    <button class="num" data-num="9">9</button>
-			    <button data-ops="plus" class="circle">+</button>
+		  		<button class="num" data-num="7" onclick="insert(7)">7</button>
+			    <button class="num" data-num="8" onclick="insert(8)">8</button>
+			    <button class="num" data-num="9" onclick="insert(9)">9</button>
+			    <button data-ops="plus" class="circle" onclick="insert(+)">+</button>
 		  	</div>
 
 		  	<div class="section">
-		  		<button class="num" data-num="4">4</button>
+		  		<button class="num" data-num="4" onclick="insert(4)">4</button>
 		  		<button class="num" data-num="5">5</button>
 		  		<button class="num" data-num="6">6</button>
 		  		<button data-ops="minus" class="circle">-</button>
