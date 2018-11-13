@@ -1,7 +1,7 @@
 body {
   margin: 100px;
   background: url();
-  font: heebo-thin;
+  font-size: 15px;
 }
 
 .calculator {
@@ -30,28 +30,36 @@ button:hover {
   0 2px 0 rgba(255,165,0,.4);
 }
 
-/* Округление кнопков */
+/* цвет */
+.num {
+  background: #4c515b;
+  color: #ffffff;
+}
+
 .circle {
   background: #ef4141;
-  color: white;
+  color: #ffffff;
 }
+
+ #null {
+  width: 150px;
+ }
 
 #icon1 {
   background-color: #3C3838;
 }
 
-/* пойсковая строка */
+/* ответ */
 .display {
   border: 0;
   border-radius: 7px;
-  width: 269px;
-  height: 35px;
+  width: 150px;
+  height: 50px;
   border: 1px solid darkslateblue;
   padding: 4px 2px;
   text-align: right;
   font: 700 16px/1 Arial, sans-serif;
-  color: darkslateblue;
-  background-color: whitesmoke;
+  background: gray;
 }
 /*меню*/
 .icon {
@@ -67,9 +75,9 @@ button:hover {
   background: #FE7904;
 }
 
-hr {
+/* hr {
   width: 267px;
-}
+} */
 
 .calculator__form {
   height: 100%;

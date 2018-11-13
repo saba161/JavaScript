@@ -12,14 +12,11 @@
 			<div>
 				<input class="display" type="0" disabled />
 			</div>
-			<hr>
 			<div class="section">
 				<button class="circle">C</button>
 				<button class="circle">%</button>
 				<button class="circle">#</button>
-				<button class="circle" id="icon1">
-					<img class="icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADISURBVGhD7Zg7CsJAEEDnUB4hEFHwHBbaeAk/+MFKO9HCO1jZiElsJViK4AE8gWsWtxElTQpnl/fgVdvMa3ZgBAAAoCrRMKvF/WPko3Z2lyHSGCVJPEiMj9rZXYZIc5yeZrubuT6eXrnY342d3WUQ8ncJ0eZXSDC/VjB7BADKqQ/TeWuSHXzUzu4y3nukvTqbabFLfLKzztnsqiREmz9DupvcLIsHn+xtL58hwXy/AFAOBzoFcqDTJCHaDDeEA50COdABAEB1RF6zwiQnCay1/AAAAABJRU5ErkJggg==">
-				</button>
+				<button class="circle">/</button>
 			</div>
 		  	<div class="section">
 		  		<button class="num" data-num="7" onclick="insert(7)">7</button>
@@ -43,10 +40,9 @@
 		  	</div>
 
 		  	<div class="section">
-		  		<button class="num" data-num="0">0</button>
+		  		<button class="num" id="null">0</button>
 		  		<button class="num" data-num=".">.</button>
-		  		<button class="" id="equals">=</button>
-		  		<button data-ops="divided by" class="circle">/</button>
+		  		<button data-ops="divided by" class="circle">=</button>
 		  	</div>
 		</div>
 	</form>
