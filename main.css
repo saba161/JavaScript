@@ -1,18 +1,24 @@
 body {
-  margin: 100px;
-  background: url();
+  margin-top: 37px;
+  background: url(Mathematics-desktop-1920x1080-hd-wallpaper.jpg);
   font-size: ;
 }
 
 .block {
-  width: 400px;
-  height: 500px;
+  width: 385px;
+  height: 570px;
   margin: auto;
-  background: gray;
+  border-radius: 15px;
+  background: #ffffff;
+
+  box-shadow: inset 0 0 20px rgba(0,0,0,.25),
+  inset 0 2px 0 rgba(255,255,255,.4),
+  0 2px 0 rgba(255,255,255,.4),
+  inset 0 0 20px rgba(255,255,255,.1);
 }
 
 .calculator {
-  width: 100%;
+  margin-top: 17px;
   position: absolute;
   margin-left: -3px;
 }
@@ -25,11 +31,6 @@ button {
   width: 70px;
   height: 70px;
   margin: 3px;
-
-  box-shadow: inset 0 0 20px rgba(0,0,0,.25),
-  inset 0 2px 0 rgba(255,255,255,.4),
-  0 2px 0 rgba(255,255,255,.4),
-  inset 0 0 20px rgba(255,255,255,.1);
 }
 
 button:hover {
@@ -59,15 +60,12 @@ button:hover {
 
 /* ответ */
 .display {
+  width: 305px;
+  height: 80px;
   border: 0;
-  border-radius: 7px;
-  width: 150px;
-  height: 50px;
-  border: 1px solid darkslateblue;
-  padding: 4px 2px;
-  text-align: right;
-  font: 700 16px/1 Arial, sans-serif;
-  background: gray;
+  margin-top: 30px;
+  margin-left: 79px; 
+  background: #3C3838;
 }
 /*меню*/
 .icon {
