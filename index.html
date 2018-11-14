@@ -6,45 +6,45 @@
 		<link rel="stylesheet" type="text/css" href="main.css">
 	</head>
 	<body>
-		<div></div>
-		<form class="calculator__form">
-		<div class="calculator">
-			<div>
-				<input class="display" type="0" disabled />
+			<div class="block">
+				<div class="calculator">
+				<!--	<div>
+						<input class="display" type="0" disabled />
+					</div> 
+				-->
+					<div class="section">
+						<button class="circle">C</button>
+						<button class="circle">%</button>
+						<button class="circle">#</button>
+						<button class="circle">/</button>
+					</div>
+				  	<div class="section">
+				  		<button class="num" data-num="7" onclick="insert(7)">7</button>
+					    <button class="num" data-num="8" onclick="insert(8)">8</button>
+					    <button class="num" data-num="9" onclick="insert(9)">9</button>
+					    <button data-ops="plus" class="circle" onclick="insert(+)">*</button>
+				  	</div>
+
+				  	<div class="section">
+				  		<button class="num" data-num="4" onclick="insert(4)">4</button>
+				  		<button class="num" data-num="5">5</button>
+				  		<button class="num" data-num="6">6</button>
+				  		<button data-ops="minus" class="circle">-</button>
+				  	</div>
+
+				  	<div class="section">
+				  		<button class="num" data-num="1">1</button>
+					  	<button class="num" data-num="2">2</button>
+					  	<button class="num" data-num="3">3</button>
+					  	<button data-ops="times" class="circle">+</button>
+				  	</div>
+
+				  	<div class="section">
+				  		<button class="num" id="null">0</button>
+				  		<button class="num" data-num=".">.</button>
+				  		<button data-ops="divided by" class="circle">=</button>
+				  	</div>
+				</div>
 			</div>
-			<div class="section">
-				<button class="circle">C</button>
-				<button class="circle">%</button>
-				<button class="circle">#</button>
-				<button class="circle">/</button>
-			</div>
-		  	<div class="section">
-		  		<button class="num" data-num="7" onclick="insert(7)">7</button>
-			    <button class="num" data-num="8" onclick="insert(8)">8</button>
-			    <button class="num" data-num="9" onclick="insert(9)">9</button>
-			    <button data-ops="plus" class="circle" onclick="insert(+)">*</button>
-		  	</div>
-
-		  	<div class="section">
-		  		<button class="num" data-num="4" onclick="insert(4)">4</button>
-		  		<button class="num" data-num="5">5</button>
-		  		<button class="num" data-num="6">6</button>
-		  		<button data-ops="minus" class="circle">-</button>
-		  	</div>
-
-		  	<div class="section">
-		  		<button class="num" data-num="1">1</button>
-			  	<button class="num" data-num="2">2</button>
-			  	<button class="num" data-num="3">3</button>
-			  	<button data-ops="times" class="circle">+</button>
-		  	</div>
-
-		  	<div class="section">
-		  		<button class="num" id="null">0</button>
-		  		<button class="num" data-num=".">.</button>
-		  		<button data-ops="divided by" class="circle">=</button>
-		  	</div>
-		</div>
-	</form>
 	</body>
 </html>
