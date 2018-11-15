@@ -26,13 +26,11 @@ body {
 
 /* Кнопки */
 button {
-  background: #3C3838;
+  background: black;
   border: none;
   cursor: pointer none;
   width: 70px;
   height: 70px;
-  margin: 3px;
-  font-size: 2.5vw;
 }
 
 button:hover {
@@ -43,11 +41,15 @@ button:hover {
 
 /* цвет */
 .num {
+  margin: 3px;
+  font-size: 2.5vw;
   background: #4c515b;
   color: #ffffff;
 }
 
 .circle {
+  margin: 3px;
+  font-size: 2.5vw;
   background: #ef4141;
   color: #ffffff;
 }
@@ -55,11 +57,6 @@ button:hover {
  #null {
   width: 150px;
  }
-
-#icon1 {
-  background-color: #3C3838;
-}
-
 /* ответ */
 .display {
   width: 378px;
@@ -69,23 +66,10 @@ button:hover {
   margin-left: 100px; 
   background: #4c515b;
 }
-/*меню*/
-.icon {
-  width: 16px;
-  height: 16px;
-}
 
 .section {
   margin: 7px 0;
 }
-
-#equals {
-  background: #FE7904;
-}
-
-/* hr {
-  width: 267px;
-} */
 
 .calculator__form {
   height: 100%;
