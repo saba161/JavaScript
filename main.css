@@ -1,11 +1,39 @@
 body {
-  margin-top: 25px;
-  background: url(img/Mathematics-desktop-1920x1080-hd-wallpaper.jpg);
+  margin-top: 15px;
+  background-image: url(background.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.Icons{
+  position: absolute;
+    left: 440px;
+    top: 275px;
+    font-size: 5vw;
+}
+.weather{
+  position: absolute;
+    left: 435px;
+    top: 200px;
+    font-size: 5vw;
+}
+
+.icon-facebook{
+    position: absolute;
+    left: 440px;
+    top: 353px;
+    font-size: 5vw;
+}
+
+.history{
+position: absolute;
+    left: 363px;
+    top: 5px;
+    font-size: 5vw;
 }
 
 .block {
-  width: 478px;
-  height: 594px;
+  width: 430px;
+  height: 600px;
   border: none;
   margin: auto;
   border-radius: 25px;
@@ -19,7 +47,7 @@ body {
 }
 
 .calculator {
-  margin-top: 17px;
+  margin-top: 32px;
   position: absolute;
   margin-left: -3px;
 }
@@ -29,10 +57,11 @@ button {
   background: #3C3838;
   border: none;
   cursor: pointer none;
-  width: 70px;
-  height: 70px;
-  margin: 3px;
+  width: 85px;
+  height: 80px;
+  margin: -1px;
   font-size: 2.5vw;
+  /*font-family: heebo-thin;*/
 }
 
 button:hover {
@@ -53,7 +82,7 @@ button:hover {
 }
 
  #null {
-  width: 150px;
+  width: 172px;
  }
 
 #icon1 {
@@ -62,7 +91,7 @@ button:hover {
 
 /* ответ */
 .display {
-  width: 378px;
+  width: 330px;
   height: 100px;
   border: 0;
   margin-top: 30px;
@@ -76,7 +105,7 @@ button:hover {
 }
 
 .section {
-  margin: 7px 0;
+  margin: 3px 0;
 }
 
 #equals {
