@@ -10,7 +10,7 @@
 				<div>
 					<input type="text" id="numsarea" class="display"/>
 				</div> 
-				<div class="calculator">
+				<div id="calc" class="calculator">
 					<div class="section">
 						<button class="circle" type="button">C</button>
 						<button class="circle" type="button" onclick="insert('%');">%</button>
@@ -33,7 +33,7 @@
 				  	</div>
 
 				  	<div class="section">
-				  		<button class="num" type="button" onclick="insert('1');" >1</button>
+				  		<button class="num" type="button" onclick="insert('1');">1</button>
 					  	<button class="num" type="button" onclick="insert('2');">2</button>
 					  	<button class="num" type="button" onclick="insert('3');">3</button>
 					  	<button class="circle shadow" type="button" onclick="insert('+')">+</button>
@@ -44,14 +44,12 @@
 				  		<button class="num" type="button" onclick="insert('.');">.</button>
 				  		<button class="circle" type="button" onclick="insert('=');">=</button>
 
-				  		<button class="history" type="button"><img src="history.png" width="50" height="50"></button>
+				  		<button class="history" onclick="hide();" type="button"><img src="history.png" width="50" height="50"></button>
 				  		<button class="weather" type="button"><img src="weather.png" width="90" height="90"></button>
 				  		<button class="Icons" type="button"><img src="val.png" width="90" height="90"></button>
 						<button class="icon-facebook" type="button"><img src="FB.png" width="90" height="90"></button>
 				  	</div>
 				</div>
-			</div>
-			<div>
 			</div>
 		</form>
 	</body>
