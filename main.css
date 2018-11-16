@@ -1,34 +1,8 @@
 body {
   margin-top: 15px;
-  background-image: url(background.png);
+  background-image: url(img/Mathematics-desktop-1920x1080-hd-wallpaper.jpg);
   background-size: cover;
   background-attachment: fixed;
-}
-.Icons{
-  position: absolute;
-    left: 440px;
-    top: 275px;
-    font-size: 5vw;
-}
-.weather{
-  position: absolute;
-    left: 435px;
-    top: 200px;
-    font-size: 5vw;
-}
-
-.icon-facebook{
-    position: absolute;
-    left: 440px;
-    top: 353px;
-    font-size: 5vw;
-}
-
-.history{
-position: absolute;
-    left: 363px;
-    top: 5px;
-    font-size: 5vw;
 }
 
 .block {
@@ -54,38 +28,31 @@ position: absolute;
 
 /* Кнопки */
 button {
-  background: black;
   border: none;
-  cursor: pointer none;
-<<<<<<< HEAD
+  cursor: pointer;
+
   width: 85px;
   height: 80px;
   margin: -1px;
   font-size: 3vw;
   font-family: Courier New;
-=======
-  width: 70px;
-  height: 70px;
->>>>>>> e7eb7bbd219aee997cc6395dcbc0ad98356020f9
 }
 
 button:hover {
-  box-shadow: 0 px 20px rgba(255,165,0,.25),
-  inset 0 2px 0 rgba(255,165,0,.10),
-  0 2px 0 rgba(255,165,0,.4);
+
 }
 
 /* цвет */
 .num {
-  margin: 3px;
-  font-size: 2.5vw;
+  margin: -1px;
+  font-size: 3vw;
   background: #4c515b;
   color: #ffffff;
 }
 
 .circle {
-  margin: 3px;
-  font-size: 2.5vw;
+  margin: -1px;
+  font-size: 3vw;
   background: #ef4141;
   color: #ffffff;
 }
@@ -93,6 +60,39 @@ button:hover {
  #null {
   width: 172px;
  }
+
+ .weather{ 
+  position: absolute;
+  left: 435px;
+  top: 200px;
+  font-size: 5vw;
+  background: transparent;
+}
+
+.icon-facebook{
+  position: absolute;
+  left: 440px;
+  top: 353px;
+  font-size: 5vw;
+  background: transparent;
+}
+
+.history{
+  position: absolute;
+  left: 350px;
+  top: 5px;
+  font-size: 5vw;
+  background: transparent;
+}
+
+.Icons{
+  position: absolute;
+  left: 440px;
+  top: 275px;
+  font-size: 5vw;
+  background: transparent;
+}
+
 /* ответ */
 .display {
   width: 330px;
