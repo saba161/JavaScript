@@ -79,6 +79,7 @@ button:hover {
 }
 
 .history{
+  outline: none;
   position: absolute;
   left: 350px;
   top: 5px;
