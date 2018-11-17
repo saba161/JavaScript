@@ -57,6 +57,7 @@ button:hover {
 }
 
  #null {
+  outline: none;
   width: 172px;
  }
 
