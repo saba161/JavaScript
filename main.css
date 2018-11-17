@@ -29,7 +29,7 @@ body {
 button {
   border: none;
   cursor: pointer;
-
+  
   width: 85px;
   height: 80px;
   margin: -1px;
@@ -43,6 +43,7 @@ button:hover {
 
 /* цвет */
 .num {
+  outline: none;
   margin: -1px;
   font-size: 3vw;
   background: #4c515b;
