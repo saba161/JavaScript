@@ -6,7 +6,7 @@ body {
 }
 
 .shadow{
-    box-shadow: 7px 10px 20px #aaaaaa;
+  box-shadow: 7px 10px 20px #aaaaaa;
 }
 
 .block {
@@ -29,7 +29,6 @@ body {
 button {
   border: none;
   cursor: pointer;
-  
   width: 85px;
   height: 80px;
   margin: -1px;
@@ -123,8 +122,9 @@ button:hover {
 }
 
 .HistoryBlock {
-  width: 50px;
-  height: 70px;
-  display: none;
+  width: 200px;
+  height: 200px;
+  top: 50%;
   background: black;
+  border: 3px solid #73AD21;
 }
