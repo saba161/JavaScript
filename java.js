@@ -16,6 +16,3 @@ function show()
 	var elem = document.getElementById("calc");
 	elem.style.display = 'none';
 }
-
-
-
