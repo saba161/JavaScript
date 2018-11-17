@@ -88,6 +88,7 @@ button:hover {
 }
 
 .Icons{
+  outline: none;
   position: absolute;
   left: 440px;
   top: 281px;
@@ -97,6 +98,7 @@ button:hover {
 
 /* ответ */
 .display {
+  outline: none;
   width: 330px;
   height: 90px;
   border: 0;
