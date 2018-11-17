@@ -101,7 +101,8 @@ button:hover {
   margin-left: 100px; 
   background: #4c515b;
   text-align: right;
-  size: 18px;
+  font-size: 50px;
+  color: #ffffff;
 }
 
 .section {
