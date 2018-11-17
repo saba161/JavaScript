@@ -50,6 +50,7 @@ button:hover {
 }
 
 .circle {
+  outline: none;
   margin: -1px;
   font-size: 3vw;
   background: #ef4141;
