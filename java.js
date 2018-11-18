@@ -28,3 +28,4 @@ function equal() {
 		document.getElementById('numsarea').value=eval(sum);
 	}
 }
+
