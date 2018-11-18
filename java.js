@@ -21,7 +21,7 @@ function show()
 function clean(){
 		document.getElementById('numsarea').value="";
 }
-//NumberSum
+//answer
 function equal() {
 	var sum=document.getElementById('numsarea').value;
 	if(sum){
