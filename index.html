@@ -14,7 +14,7 @@
 					<div id="calc" class="calculator">
 
 						<div class="section">
-							<button class="circle" type="reset">C</button>
+							<button class="circle" type="button" onclick="clean()">C</button>
 							<button class="circle" type="button" onclick="insert('%');">%</button>
 							<button class="circle" type="button" onclick="backspace();"><<</button>
 							<button class="circle shadow" type="button" onclick="insert('/');">÷</button>
@@ -45,7 +45,7 @@
 					  	<div class="section shadow">
 					  		<button class="num" type="button" id="null" onclick="insert('0');">0</button>
 					  		<button class="num" type="button" onclick="insert('.');">.</button>
-					  		<button class="circle" type="button" onclick="insert('=');">=</button>
+					  		<button class="circle" type="button" onclick="equal()">=</button>
 			  			</div>
 
 			  			<div>

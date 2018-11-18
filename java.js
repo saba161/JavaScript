@@ -16,3 +16,15 @@ function show()
 	var elem = document.getElementById("calc");
 	elem.style.display = 'none';
 }
+
+//C-reset
+function clean(){
+		document.getElementById('numsarea').value="";
+}
+//NumberSum
+function equal() {
+	var sum=document.getElementById('numsarea').value;
+	if(sum){
+		document.getElementById('numsarea').value=eval(sum);
+	}
+}
