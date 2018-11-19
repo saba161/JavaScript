@@ -11,7 +11,7 @@
 					<div>
 						<input type="text" id="numsarea" autocomplete="off" class="display" disabled/>
 					</div> 
-					<div id="calc" class="calculator">
+					<div class="calculator">
 
 						<div class="section">
 							<button class="circle" type="button" onclick="clean()">C</button>
@@ -49,12 +49,16 @@
 			  			</div>
 
 			  			<div>
-					  		<button class="history" onclick="showwindow();" type="button"><img src="history.png" width="50" height="50"></button>
-					  		<button class="weather" type="button"><img src="weather.png" width="90" height="90"></button>
-					  		<button class="Icons" type="button"><img src="val.png" width="90" height="90"></button>
-							<button class="icon-facebook" type="button"><img src="FB.png" width="90" height="90"></button>
+					  		<button class="history" type="button" onclick="showHistory()"><img src="history.png" width="50" height="50"></button>
+					  		<button class="weather" type="button" onclick="showWeather()"><img src="weather.png" width="90" height="90"></button>
+					  		<button class="Icons" type="button" onclick="showVal()"><img src="val.png" width="90" height="90"></button>
+							<button class="icon-facebook" type="button" onclick="showFacebook()"><img src="FB.png" width="90" height="90"></button>
 					  	</div>
 			  		</div>
+			  		<div id="calc" class="HistoryBlock"></div>
+			  		<div id="showWeather" class="weatherBlock"></div>
+			  		<div id="showVal" class="val"></div>
+			  		<div id="showFacebook" class="facebook"></div>
 				</div>
 			</div>
 		</form>

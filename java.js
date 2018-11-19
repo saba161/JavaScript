@@ -11,21 +11,56 @@ function backspace()
     document.getElementById('numsarea').value = rekensom.substring(0,rekensom.length -1);
 }
 //show history
-function show() 
+function showHistory() 
 {
-	var elem = document.getElementById("calc");
-	elem.style.display = 'none';
+    var x = document.getElementById('calc');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+//show weather
+function showWeather() 
+{
+    var x = document.getElementById('showWeather');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+//show weather
+function showVal() 
+{
+    var x = document.getElementById('showVal');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+//show facebook
+function showFacebook() 
+{
+    var x = document.getElementById('showFacebook');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
 }
 
 //C-reset
-function clean(){
+function clean()
+{
 		document.getElementById('numsarea').value="";
 }
 //answer
-function equal() {
-	var sum=document.getElementById('numsarea').value;
+function equal()
+{
+	var sum = document.getElementById('numsarea').value;
 	if(sum){
-		document.getElementById('numsarea').value=eval(sum);
+		document.getElementById('numsarea').value = eval(sum);
 	}
 }
-

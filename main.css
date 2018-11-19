@@ -123,9 +123,42 @@ button:hover {
 }
 
 .HistoryBlock {
-  width: 200px;
+  width: 430px;
   height: 200px;
-  top: 50%;
+  display: none;
+  margin-left: 440px;
+  margin-bottom: 100px;
+  position: absolute;
   background: black;
-  border: 3px solid #73AD21;
+  border-radius: 15px;
+}
+
+.weatherBlock {
+  width: 430px;
+  height: 480px;
+  background: #ffffff;
+  margin-bottom: 100px;
+  margin-left: 440px;
+  border-radius: 15px;
+  display: none;
+}
+
+.val {
+  width: 430px;
+  height: 480px;
+  background: #ffffff;
+  margin-bottom: 100px;
+  margin-left: 440px;
+  border-radius: 15px;
+  display: none;
+}
+
+.facebook {
+  width: 430px;
+  height: 480px;
+  background: #ffffff;
+  margin-bottom: 100px;
+  margin-left: 455px;
+  border-radius: 15px;
+  display: none;
 }
