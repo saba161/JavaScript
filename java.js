@@ -30,7 +30,7 @@ function showWeather()
         x.style.display = 'none';
     }
 }
-//show weather
+//show Val
 function showVal() 
 {
     var x = document.getElementById('showVal');

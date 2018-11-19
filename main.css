@@ -74,7 +74,7 @@ button:hover {
 .icon-facebook{
   outline: none;
   position: absolute;
-  left: 440px;
+  left: 443px;
   top: 363px;
   font-size: 5vw;
   background: transparent;
@@ -92,7 +92,7 @@ button:hover {
 .Icons{
   outline: none;
   position: absolute;
-  left: 440px;
+  left: 441px;
   top: 281px;
   font-size: 5vw;
   background: transparent;
@@ -124,40 +124,41 @@ button:hover {
 
 .HistoryBlock {
   width: 430px;
-  height: 200px;
+  height: 300px;
   display: none;
-  margin-left: 440px;
+  margin-left: 455px;
+  top: 35px;
   margin-bottom: 100px;
   position: absolute;
-  background: black;
+  background: #ffffff;
   border-radius: 15px;
 }
 
 .weatherBlock {
   width: 430px;
-  height: 480px;
-  background: #ffffff;
-  margin-bottom: 100px;
-  margin-left: 440px;
-  border-radius: 15px;
+  height: 478px;
   display: none;
+  margin-left: 455px;
+  background: #ffffff;
+  margin-bottom: 32px; /*100*/
+  border-radius: 15px;
 }
 
 .val {
   width: 430px;
-  height: 480px;
+  height: 478px;
   background: #ffffff;
-  margin-bottom: 100px;
-  margin-left: 440px;
+  margin-bottom: 32px;  /*100*/
+  margin-left: 455px;
   border-radius: 15px;
   display: none;
 }
 
 .facebook {
   width: 430px;
-  height: 480px;
+  height: 478px;
   background: #ffffff;
-  margin-bottom: 100px;
+  margin-bottom: 32px; /*100*/
   margin-left: 455px;
   border-radius: 15px;
   display: none;
