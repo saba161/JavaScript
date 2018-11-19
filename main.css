@@ -163,3 +163,17 @@ button:hover {
   border-radius: 15px;
   display: none;
 }
+.backspaceHistory{
+	margin-left: 370px;
+}
+.backspaceWeather{
+  	margin-left: 370px;
+}
+
+.backspaceVal{
+	margin-left: 370px;
+}
+
+.backspaceFB{
+	margin-left: 370px;
+}
