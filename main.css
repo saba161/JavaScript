@@ -132,6 +132,7 @@ button:hover {
   position: absolute;
   background: #ffffff;
   border-radius: 15px;
+  box-shadow: 2px 4px 15px #aaaaaa;
 }
 
 .weatherBlock {
@@ -152,6 +153,7 @@ button:hover {
   margin-left: 455px;
   border-radius: 15px;
   display: none;
+  box-shadow: 2px 4px 15px #aaaaaa;
 }
 
 .facebook {
@@ -162,6 +164,7 @@ button:hover {
   margin-left: 455px;
   border-radius: 15px;
   display: none;
+  box-shadow: 2px 4px 15px #aaaaaa;
 }
 .backspaceHistory{
 	margin-left: 370px;
