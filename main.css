@@ -166,17 +166,22 @@ button:hover {
   display: none;
   box-shadow: 2px 4px 15px #aaaaaa;
 }
+
+.goback {
+  background: #ffffff;
+  outline: none;
+}
+
+/* eseni agar damchirda 
 .backspaceHistory{
-	margin-left: 370px;
+  margin-left: 370px;
 }
 .backspaceWeather{
-  	margin-left: 370px;
+    margin-left: 370px;
 }
-
 .backspaceVal{
-	margin-left: 370px;
+  margin-left: 370px;
 }
-
 .backspaceFB{
-	margin-left: 370px;
-}
+  margin-left: 370px;
+}*/

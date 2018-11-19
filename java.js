@@ -1,8 +1,8 @@
-//calculator operations
+//num
 function insert(act)
 {
-	var numsarea = document.getElementById("numsarea");
-	numsarea.value = numsarea.value + act;
+    var numsarea = document.getElementById("numsarea");
+    numsarea.value = numsarea.value + act;
 }
 
 function backspace()
@@ -54,13 +54,19 @@ function showFacebook()
 //C-reset
 function clean()
 {
-		document.getElementById('numsarea').value="";
+        document.getElementById('numsarea').value="";
 }
 //answer
 function equal()
 {
-	var sum = document.getElementById('numsarea').value;
-	if(sum){
-		document.getElementById('numsarea').value = eval(sum);
-	}
+    var sum = document.getElementById('numsarea').value;
+    if(sum){
+        document.getElementById('numsarea').value = eval(sum);
+    }
+}
+
+//close icon
+function goBack() 
+{
+    window.history.back();
 }
