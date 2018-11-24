@@ -9,7 +9,7 @@ function backspace(){
     document.getElementById('numsarea').value = rekensom.substring(0,rekensom.length -1);
 }
 //show history
-function showHistory() {
+function showHistory(){
     var x = document.getElementById('calc');
     if (x.style.display === 'none') {
         x.style.display = 'block';
@@ -18,7 +18,7 @@ function showHistory() {
     }
 }
 //show weather
-function showWeather() {
+function showWeather(){
     var x = document.getElementById('showWeather');
     if (x.style.display === 'none') {
         x.style.display = 'block';
@@ -27,7 +27,7 @@ function showWeather() {
     }
 }
 //show Val
-function showVal() {
+function showVal(){
     var x = document.getElementById('showVal');
     if (x.style.display === 'none') {
         x.style.display = 'block';
@@ -36,7 +36,7 @@ function showVal() {
     }
 }
 //show facebook
-function showFacebook() {
+function showFacebook(){
     var x = document.getElementById('showFacebook');
     if (x.style.display === 'none') {
         x.style.display = 'block';
@@ -58,7 +58,18 @@ function equal(){
 }
 
 //close icon
-function goBack() {
+function goBack(){
     window.history.back();
+}
+
+//history "json"
+function history(){
+    var h = document.getElementById('numsarea');
+    var history = {
+
+    }
+    history.push(
+        {h}
+    );
 }
 
