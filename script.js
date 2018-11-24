@@ -63,13 +63,3 @@ function goBack(){
 }
 
 //history "json"
-function history(){
-    var h = document.getElementById('numsarea');
-    var history = {
-
-    }
-    history.push(
-        {h}
-    );
-}
-
