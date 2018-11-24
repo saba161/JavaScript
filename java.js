@@ -1,18 +1,15 @@
 //num
-function insert(act)
-{
+function insert(act){
     var numsarea = document.getElementById("numsarea");
     numsarea.value = numsarea.value + act;
 }
 
-function backspace()
-{    
+function backspace(){    
     var rekensom  = document.getElementById('numsarea').value;
     document.getElementById('numsarea').value = rekensom.substring(0,rekensom.length -1);
 }
 //show history
-function showHistory() 
-{
+function showHistory() {
     var x = document.getElementById('calc');
     if (x.style.display === 'none') {
         x.style.display = 'block';
@@ -21,8 +18,7 @@ function showHistory()
     }
 }
 //show weather
-function showWeather() 
-{
+function showWeather() {
     var x = document.getElementById('showWeather');
     if (x.style.display === 'none') {
         x.style.display = 'block';
@@ -31,8 +27,7 @@ function showWeather()
     }
 }
 //show Val
-function showVal() 
-{
+function showVal() {
     var x = document.getElementById('showVal');
     if (x.style.display === 'none') {
         x.style.display = 'block';
@@ -41,8 +36,7 @@ function showVal()
     }
 }
 //show facebook
-function showFacebook() 
-{
+function showFacebook() {
     var x = document.getElementById('showFacebook');
     if (x.style.display === 'none') {
         x.style.display = 'block';
@@ -52,13 +46,11 @@ function showFacebook()
 }
 
 //C-reset
-function clean()
-{
-        document.getElementById('numsarea').value="";
+function clean(){
+    document.getElementById('numsarea').value="";
 }
 //answer
-function equal()
-{
+function equal(){
     var sum = document.getElementById('numsarea').value;
     if(sum){
         document.getElementById('numsarea').value = eval(sum);
@@ -66,7 +58,7 @@ function equal()
 }
 
 //close icon
-function goBack() 
-{
+function goBack() {
     window.history.back();
 }
+

@@ -11,6 +11,7 @@
 					<div>
 						<input type="text" id="numsarea" autocomplete="off" class="display" disabled/>
 					</div> 
+
 					<div class="calculator">
 						<div class="section">
 							<button class="circle" type="button" onclick="clean()">C</button>
@@ -51,24 +52,25 @@
 					  		<button class="history" type="button" onclick="showHistory()"><img src="history.png" width="50" height="50"></button>
 					  		<button class="weather" type="button" onclick="showWeather()"><img src="weather.png" width="90" height="90"></button>
 					  		<button class="Icons" type="button" onclick="showVal()"><img src="val.png" width="90" height="90"></button>
-							<button class="icon-facebook" type="button" onclick="showFacebook()"><img src="FB.png" width="90" height="90"></button>
+							<button class="icon-facebook" type="button" onclick="showFacebook()"><img src="FB.png" width="90" height="90">
+							</button>
 					  	</div>
 			  		</div>
 
 			  		<div id="calc" class="HistoryBlock" style="text-align: right">
-			  			<button onclick="goBack()">
+			  			<button class="goback" onclick="goBack()">
 			  				<img src="img/back.png" class="backspaceHistory" width="50" height="50">
 			  			</button>
 			  		</div>
 			  		
 			  		<div id="showWeather" class="weatherBlock" style="text-align: right">
-			  			<button onclick="goBack()">
+			  			<button class="goback" onclick="goBack()">
 			  				<img src="img/back.png" class="backspaceWeather" width="50"height="50">
 			  			</button>
 			  		</div>
 			  		
 			  		<div id="showVal" class="val" style="text-align: right">
-			  			<button onclick="goBack()">
+			  			<button class="goback" onclick="goBack()">
 			  				<img src="img/back.png" class="backspaceVal" width="50" 
 			  				height="50">
 			  			</button>
@@ -80,6 +82,7 @@
 			  				height="50">
 			  			</button>
 			  		</div>
+			  		<div id="map_canvas"></div>
 				</div>
 			</div>
 		</form>

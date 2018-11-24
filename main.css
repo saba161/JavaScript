@@ -75,7 +75,7 @@ button:hover {
   outline: none;
   position: absolute;
   left: 443px;
-  top: 363px;
+  top: 362px;
   font-size: 5vw;
   background: transparent;
 }
@@ -157,8 +157,9 @@ button:hover {
 }
 
 .facebook {
-  width: 430px;
-  height: 478px;
+  width: 400px;
+  margin-top: 398px;
+  height: 80px;
   background: #ffffff;
   margin-bottom: 32px; /*100*/
   margin-left: 455px;
@@ -168,20 +169,7 @@ button:hover {
 }
 
 .goback {
+  margin: 0px;
   background: #ffffff;
   outline: none;
 }
-
-/* eseni agar damchirda 
-.backspaceHistory{
-  margin-left: 370px;
-}
-.backspaceWeather{
-    margin-left: 370px;
-}
-.backspaceVal{
-  margin-left: 370px;
-}
-.backspaceFB{
-  margin-left: 370px;
-}*/
