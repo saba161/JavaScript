@@ -173,3 +173,38 @@ button:hover {
   background: #ffffff;
   outline: none;
 }
+
+ol {
+    list-style: none; 
+    padding: 0;
+    margin-top: 75px;
+    margin-left: 15px;
+    float: left;
+    font-size: 30px;
+    font-family: Arial Narrow;
+}
+
+li::before {
+    content: "•"; 
+    padding-right: 8px;
+    color: #ef4141; 
+}
+
+#history1 {
+	color: #4c515b;
+}
+#history2 {
+	color: #4c515b;
+}
+#history3 {
+	color: #4c515b;
+}
+#history4 {
+	color: #4c515b;
+}
+#history5 {
+	color: #4c515b;
+}
+#history6 {
+	color: #4c515b;
+}
