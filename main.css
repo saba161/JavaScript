@@ -208,3 +208,6 @@ li::before {
 #history6 {
 	color: #4c515b;
 }
+#historyHide {
+  display: none;
+}

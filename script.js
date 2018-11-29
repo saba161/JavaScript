@@ -54,8 +54,8 @@ function equal(){
     var sum = document.getElementById('numsarea').value;
     if(sum){
         document.getElementById('numsarea').value = eval(sum);
-        var x= eval(sum)
-    document.getElementById('history1').innerHTML=x;
+        var x = eval(sum)
+        document.getElementById('history1').innerHTML = x;
     }
     
     document.getElementById('history6').innerHTML = document.getElementById('history5').innerHTML;
@@ -63,7 +63,6 @@ function equal(){
     document.getElementById('history4').innerHTML = document.getElementById('history3').innerHTML;
     document.getElementById('history3').innerHTML = document.getElementById('history2').innerHTML;
     document.getElementById('history2').innerHTML = document.getElementById('history1').innerHTML;
-   
 }
 /*
 function movehistory() {
@@ -78,5 +77,3 @@ function movehistory() {
 function goBack(){
     window.history.back();
 }
-
-//history "json"
