@@ -8,6 +8,7 @@ function backspace(){
     var rekensom  = document.getElementById('numsarea').value;
     document.getElementById('numsarea').value = rekensom.substring(0,rekensom.length -1);
 }
+/*
 //show history
 function showHistory(){
     var x = document.getElementById('calc');
@@ -36,14 +37,14 @@ function showVal(){
     }
 }
 //show facebook
-function showFacebook(){
+ function showFacebook(){
     var x = document.getElementById('showFacebook');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
         x.style.display = 'none';
     }
-}
+} */
 
 //C-reset
 function clean(){

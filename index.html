@@ -2,8 +2,9 @@
 <html>
 	<head>
 		<script src="script.js"></script>
-		<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="main.css">
+		<script src="qjuery.js"></script>
 	</head>
 	<body>
 		<form class="calculator__form">
@@ -50,11 +51,11 @@
 			  			</div>
 
 			  			<div>
-					  		<button id="submitButton" class="history" type="button" onclick="showHistory()"><img src="img/history.png" width="50" height="50">
+					  		<button id="showH" class="history" type="button" onclick="showHistory()"><img src="img/history.png" width="50" height="50">
 					  		</button>
-					  		<button class="weather" type="button" onclick="showWeather()"><img src="img/weather.png" width="90" height="90"></button>
-					  		<button class="Icons" type="button" onclick="showVal()"><img src="img/val.png" width="90" height="90"></button>
-							<button class="icon-facebook" type="button" onclick="showFacebook()"><img src="img/FB.png" width="90" height="90">
+					  		<button class="weather" id="showW" type="button" onclick="showWeather()"><img src="img/weather.png" width="90" height="90"></button>
+					  		<button id="showV" class="Icons" type="button" onclick="showVal()"><img src="img/val.png" width="90" height="90"></button>
+							<button id="showF" class="icon-facebook" type="button" onclick="showFacebook()"><img src="img/FB.png" width="90" height="90">
 							</button>
 					  	</div>
 			  		</div>
