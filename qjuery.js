@@ -25,4 +25,13 @@ $(document).ready(function(){
 		$("#showFacebook").hide(1000);
 	});
 });
+//show History
+$(document).ready(function(){
+	$("#showH").click(function(){
+		$("#calc").show(1000);
+	});
+	$(".goback").click(function(){
+		$("#calc").show(1000);
+	});
+});
 
