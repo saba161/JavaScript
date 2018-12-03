@@ -191,6 +191,7 @@ li::before {
 }
 
 #history1 {
+  display: none;
 	color: #4c515b;
 }
 #history2 {
