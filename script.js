@@ -8,6 +8,30 @@ function backspace(){
     var rekensom  = document.getElementById('numsarea').value;
     document.getElementById('numsarea').value = rekensom.substring(0,rekensom.length -1);
 }
+
+//C-reset
+function clean(){
+    document.getElementById('numsarea').value="";
+}
+//answer
+function equal(){
+    var sum = document.getElementById('numsarea').value;
+    if(sum){
+        document.getElementById('numsarea').value = eval(sum);
+        var x = eval(sum)
+        document.getElementById('history1').innerHTML = x;
+    }
+    
+    document.getElementById('history6').innerHTML = document.getElementById('history5').innerHTML;
+    document.getElementById('history5').innerHTML = document.getElementById('history4').innerHTML;
+    document.getElementById('history4').innerHTML = document.getElementById('history3').innerHTML;
+    document.getElementById('history3').innerHTML = document.getElementById('history2').innerHTML;
+    document.getElementById('history2').innerHTML = document.getElementById('history1').innerHTML;
+}
+//close icon
+function goBack(){
+    window.history.back();
+}
 /*
 //show history
 function showHistory(){
@@ -46,25 +70,6 @@ function showVal(){
     }
 } */
 
-//C-reset
-function clean(){
-    document.getElementById('numsarea').value="";
-}
-//answer
-function equal(){
-    var sum = document.getElementById('numsarea').value;
-    if(sum){
-        document.getElementById('numsarea').value = eval(sum);
-        var x = eval(sum)
-        document.getElementById('history1').innerHTML = x;
-    }
-    
-    document.getElementById('history6').innerHTML = document.getElementById('history5').innerHTML;
-    document.getElementById('history5').innerHTML = document.getElementById('history4').innerHTML;
-    document.getElementById('history4').innerHTML = document.getElementById('history3').innerHTML;
-    document.getElementById('history3').innerHTML = document.getElementById('history2').innerHTML;
-    document.getElementById('history2').innerHTML = document.getElementById('history1').innerHTML;
-}
 /*
 function movehistory() {
     document.getElementById('history6').innerHTML = document.getElementById('history5').innerHTML
@@ -74,7 +79,3 @@ function movehistory() {
     document.getElementById('history2').innerHTML = document.getElementById('history1').innerHTML
 }
 */
-//close icon
-function goBack(){
-    window.history.back();
-}
