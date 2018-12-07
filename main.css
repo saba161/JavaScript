@@ -36,9 +36,10 @@ button {
   font-family: Arial Narrow;
 }
 
-button:hover {
-
-}
+li {
+     display: inline-block;
+     list-style-type: none;
+ }
 
 /* цвет */
 .num {

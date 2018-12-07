@@ -18,15 +18,11 @@ function equal(){
     var sum = document.getElementById('numsarea').value;
     if(sum){
         document.getElementById('numsarea').value = eval(sum);
-        var x = eval(sum)
-        document.getElementById('history1').innerHTML = x;
+        var Formula = document.getElementById('numsarea').value;
+
+
+        document.getElementById('history').innerHTML += sum + '=' + Formula + "<br/>";
     }
-    
-    document.getElementById('history6').innerHTML = document.getElementById('history5').innerHTML;
-    document.getElementById('history5').innerHTML = document.getElementById('history4').innerHTML;
-    document.getElementById('history4').innerHTML = document.getElementById('history3').innerHTML;
-    document.getElementById('history3').innerHTML = document.getElementById('history2').innerHTML;
-    document.getElementById('history2').innerHTML = document.getElementById('history1').innerHTML;
 }
 //close icon
 function goBack(){
