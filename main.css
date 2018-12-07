@@ -36,11 +36,6 @@ button {
   font-family: Arial Narrow;
 }
 
-li {
-     display: inline-block;
-     list-style-type: none;
- }
-
 /* цвет */
 .num {
   outline: none;

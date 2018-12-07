@@ -19,8 +19,6 @@ function equal(){
     if(sum){
         document.getElementById('numsarea').value = eval(sum);
         var Formula = document.getElementById('numsarea').value;
-
-
         document.getElementById('history').innerHTML += sum + '=' + Formula + "<br/>";
     }
 }
