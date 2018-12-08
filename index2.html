@@ -2,9 +2,10 @@
 <html>
 	<head>
 		<title>Web Calculator</title>
-		<script src="script.js"></script>
+		<script src="script2.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" type="text/css" href="main2.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 		<script src="qjuery.js"></script>
 		<script src="api.js"></script>
 	</head>
@@ -26,6 +27,7 @@
 
 					<div class="calculator">
 						<div class="section">
+							<button class="circle" type="button" onclick="//აქ ჩასაწერია ორობითის ფუნქცია">Bin</button>
 							<button class="circle" type="button" onclick="clean()">C</button>
 							<button class="circle" type="button" onclick="insert('%');">%</button>
 							<button class="circle" type="button" onclick="backspace();"><<</button>
@@ -33,6 +35,7 @@
 						</div>
 
 				  		<div class="section">
+					  		<button class="num" type="button" onclick="//აქ ჩასაწერია ფესვის ფუნქცია"><span>&#8730;</span></button>
 					  		<button class="num" type="button" onclick="insert('7');">7</button>
 						    <button class="num" type="button" onclick="insert('8');">8</button>
 						    <button class="num" type="button" onclick="insert('9');">9</button>
@@ -41,6 +44,7 @@
 					  	</div>
 
 					  	<div class="section">
+					  		<button class="num" type="button" onclick="//კვადრატის ფუნქცია">x<span>&#178;</span></button>
 					  		<button class="num" type="button" onclick="insert('4');">4</button>
 					  		<button class="num" type="button" onclick="insert('5');">5</button>
 					  		<button class="num" type="button" onclick="insert('6');">6</button>
@@ -48,6 +52,7 @@
 					  	</div>
 
 					  	<div class="section">
+					  		<button class="num" type="button" onclick="//ფაქტორიალის ფუნქცია">x!</button>
 					  		<button class="num" type="button" onclick="insert('1');">1</button>
 						  	<button class="num" type="button" onclick="insert('2');">2</button>
 						  	<button class="num" type="button" onclick="insert('3');">3</button>
@@ -55,7 +60,9 @@
 					  	</div>
 
 					  	<div class="section shadow">
-					  		<button class="num" type="button" id="null" onclick="insert('0');">0</button>
+							<button class="num" type="button" onclick="insert('(');">(</button>
+					  		<button class="num" type="button" onclick="insert(')');">)</button>
+							<button class="num" type="button" onclick="insert('0');">0</button>
 					  		<button class="num" type="button" onclick="insert('.');">.</button>
 					  		<button id="" class="circle" type="button" onclick="equal(), history()">=</button>
 			  			</div>
