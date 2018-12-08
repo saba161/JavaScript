@@ -43,6 +43,8 @@ button {
   font-size: 3vw;
   background: #4c515b;
   color: #ffffff;
+  max-height: 80px;
+  max-width: 70px;
 }
 
 .circle {
@@ -51,6 +53,8 @@ button {
   font-size: 3vw;
   background: #ef4141;
   color: #ffffff;
+  max-width: 70px;
+  max-height: 80px;
 }
 
  #null {
@@ -115,7 +119,7 @@ button {
 
 .calculator__form {
   height: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 
 .HistoryBlock {
