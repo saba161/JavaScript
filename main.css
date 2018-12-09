@@ -306,5 +306,10 @@ label:before {
 }
 
 
+.c-link--facebook:hover  { color: #3b5998 }
+.c-link--google:hover    { color: #dd4b39 }
+.c-link--instagram:hover { color: #833ab4 }
+
+
 
 
