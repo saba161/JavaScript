@@ -301,7 +301,7 @@ label:before {
 }
 
 .c-icon {
-    margin-top: 20px; 
+    margin-top: 30px; 
     margin-left: 87px;
     max-width:  40px;
     max-height: 40px;
@@ -318,6 +318,7 @@ label:before {
 }
 
 
+
 .backorigin2 {
   background-color:  #ef4141;
   padding: 20px;
@@ -326,11 +327,9 @@ label:before {
   color: #ffffff;
 }
 
-.backorigin2:hover::before,
-.backorigin2:hover::after {
+.backorigin2 :hover {
       color: black;
 }
-
 
 
 /*
