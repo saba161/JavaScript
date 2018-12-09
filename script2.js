@@ -26,6 +26,11 @@ function equal(){
 function goBack(){
     window.history.back();
 }
+
+ 
+
+
+
 /*
 //show history
 function showHistory(){
@@ -74,3 +79,29 @@ function movehistory() {
 }
 */
 
+
+function factorial () {
+  var s  = document.getElementById('numsarea').value;
+  var sum = 1;
+  var i;
+  if (s < 0) {
+        return -1;
+        }
+  else if (s == 0 && s==1) {
+      return 1;
+    }
+  else{
+      for (i=s; i>=1; i--){
+      sum = sum * i;
+      }
+  }
+  return sum;
+}
+
+
+function x2 () {
+  var s  = document.getElementById('numsarea');
+  var sum=1;
+  sum= s*s;
+  return sum;
+}

@@ -156,6 +156,7 @@ button {
   box-shadow: 2px 4px 15px #aaaaaa;
 }
 
+
 .facebook {
   width: 400px;
   margin-top: 398px;
@@ -297,4 +298,60 @@ label:before {
   padding-left: 35vw;
   transition: all 0.2s;
   transition-delay: 0s;
+}
+
+.c-icon {
+    margin-top: 20px; 
+    margin-left: 87px;
+    max-width:  40px;
+    max-height: 40px;
+    fill: currentColor;
+}
+
+.c-link--facebook:hover  { color: #3b5998 }
+.c-link--google:hover    { color: #dd4b39 }
+.c-link--instagram:hover { color: #833ab4 }
+
+.c-link {
+    position: relative;
+    color: #bbb;
+}
+
+/*
+.c-tooltip::before,
+.c-tooltip::after {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -10px);
+    opacity: 0;
+    transition: .2s;
+}
+/*
+.c-tooltip::before {
+    content: '';
+    bottom: calc(100% + 2px);
+    border: solid 5px transparent;
+    border-top-color: currentColor;
+}
+
+
+/*.c-link:not(:last-of-type) {
+    margin-right: 15px;
+}*/
+
+/*
+.c-tooltip::after {
+    content: attr(aria-label);
+    bottom: calc(100% + 12px);
+    padding: .61em .93em;
+    font-size: .875rem;
+    color: white;
+    border-radius: 3px;
+}
+
+.c-tooltip:hover::before,
+.c-tooltip:hover::after {
+    opacity: 1;
+    transform: translate(-50%);
 }
