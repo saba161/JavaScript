@@ -295,3 +295,16 @@ label:before {
   transition-delay: 0s;
 }
 
+
+
+.c-icon {
+    margin-top: 20px; 
+    margin-left: 87px;
+    max-width:  40px;
+    max-height: 40px;
+    fill: currentColor;
+}
+
+
+
+
