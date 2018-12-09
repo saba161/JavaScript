@@ -321,15 +321,24 @@ label:before {
 
 .backorigin2 {
   background-color:  #ef4141;
-  padding: 20px;
-  padding-left:110px; 
-  padding-right: 110px;
   color: #ffffff;
+  width: 350px;
+  height: 65px;
+  padding-top: 27px;
 }
 
-.backorigin2 :hover {
-      color: black;
+.backorigin2:hover {
+    background-color: #4c515b;
 }
+
+.mit:hover {
+  background-color: #4c515b;
+  color: #ffffff;
+  width: 350px;
+  height: 65px;
+  padding-top: 27px;
+}
+
 
 
 /*
