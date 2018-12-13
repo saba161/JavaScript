@@ -31,7 +31,7 @@ $(document).ready(function(){
 		$("#calc").show(1000);
 	});
 	$(".goback").click(function(){
-		$("#calc").show(1000);
+		$("#calc").hide(1000);
 	});
 });
 
