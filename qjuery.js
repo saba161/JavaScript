@@ -35,23 +35,4 @@ $(document).ready(function(){
 	});
 });
 
-var historyArr = [];
-$("#equalBtn").click(function(){
-	var numsarea = $("input#numsarea").val();
-
-	historyArr.push(numsarea);
-
-	UpdateHistory();
-});
-
-function UpdateHistory(){
-	var HistoryDiv = $("div#history");
-	HistoryDiv.empty();
-
-	var Len = historyArr.length;
-	for (var i = 0; i < Len; i++) {
-		HistoryDiv.append('<p>' + historyArr[i] + '</p>');
-	}
-}
-
 
