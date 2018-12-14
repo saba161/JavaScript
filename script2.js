@@ -80,28 +80,36 @@ function movehistory() {
 */
 
 
-function factorial () {
-  var s  = document.getElementById('numsarea').value;
-  var sum = 1;
-  var i;
-  if (s < 0) {
-        return -1;
-        }
-  else if (s == 0 && s==1) {
-      return 1;
-    }
-  else{
-      for (i=s; i>=1; i--){
-      sum = sum * i;
-      }
-  }
-  return sum;
+function factorial(x) 
+{ 
+
+  if (x === 0)
+ {
+    return 1;
+ }
+  return x * factorial(x-1);
+         
 }
 
 
-function x2 () {
-  var s  = document.getElementById('numsarea');
-  var sum=1;
-  sum= s*s;
-  return sum;
+function sqrt() {
+  var a  = document.getElementById('numsarea');
+  var b = Math.sqrt(a);
+  document.getElementById("numsarea").innerHTML = b;
+}
+
+
+function x2() {
+    var a  = document.getElementById('numsarea');
+    var b = Math.pow(4, 2);
+    document.getElementById("numsarea").innerHTML = b;
+}
+
+
+function toBinary(number) {
+  var result=[], i;
+  for (i=number; i>0; i=parseInt(i/2)){
+    result.push(i%2);
+  }
+  return result.reverse().join("");
 }
