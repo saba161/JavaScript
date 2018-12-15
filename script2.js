@@ -37,14 +37,14 @@ function factorial(){
 }
 
 
-function sqrt() {
-var a  = document.getElementById('numsarea').value;
-a = Number(a);
-var b = Math.sqrt(a);
-document.getElementById("numsarea").value = b;
+function sqrt(){
+    var a  = document.getElementById('numsarea').value;
+    a = Number(a);
+    var b = Math.sqrt(a);
+    document.getElementById("numsarea").value = b;
 }
 
-function x2() {
+function x2(){
     var a  = document.getElementById('numsarea').value;
     a = Number(a);
     var b = Math.pow(a, 2);
@@ -52,15 +52,16 @@ function x2() {
 }
 
 
-function toBinary() {
+function toBinary(){
     var a  = document.getElementById('numsarea').value;
     a = Number(a);
 
 
     var result = [], i;
     for (i = a; i > 0; i = parseInt(i / 2)){
-    result.push(i % 2);
+        result.push(i % 2);
     }
+
     var ans = result.reverse().join("");
     document.getElementById("numsarea").value = ans;
 }
