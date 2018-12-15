@@ -27,7 +27,7 @@ function goBack(){
     window.history.back();
 }
 
- function factorial() 
+/* function factorial() 
 { 
     var a  = document.getElementById('numsarea');
     var b = Math.sqrt(a);
@@ -40,7 +40,17 @@ function factorial2(x) {
  {
     return 1;
  }
-  return x * factorial( x -1 );      
+  return x * factorial( x -1 );
+  console.log(x);      
+} */
+
+function factorial(){
+    var a  = document.getElementById('numsarea').value;
+    var b = 1;
+    for(var i = 1;i <= a;i++){
+        b = b * i;
+    }
+    document.getElementById("numsarea").value = b;
 }
 
 
@@ -50,7 +60,6 @@ a = Number(a);
 var b = Math.sqrt(a);
 document.getElementById("numsarea").value = b;
 }
-
 
 function x2() {
     var a  = document.getElementById('numsarea').value;
