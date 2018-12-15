@@ -27,10 +27,18 @@ function goBack(){
     window.history.back();
 }
 
- function factorial(x) 
+ function factorial() 
 { 
+    var a  = document.getElementById('numsarea');
+  var b = Math.sqrt(a);
 
-  if (x === 0)
+  factorial2(b);
+
+ 
+}
+
+function factorial2(x) {
+     if (x === 0 || x === 1)
  {
     return 1;
  }
@@ -40,16 +48,18 @@ function goBack(){
 
 
 function sqrt() {
-  var a  = document.getElementById('numsarea');
-  var b = Math.sqrt(a);
-  document.getElementById("numsarea").innerHTML = b;
+var a  = document.getElementById('numsarea').value;
+a = Number(a);
+var b = Math.sqrt(a);
+document.getElementById("numsarea").value = b;
 }
 
 
 function x2() {
-    var a  = document.getElementById('numsarea');
-    var b = Math.pow(4, 2);
-    document.getElementById("numsarea").innerHTML = b;
+    var a  = document.getElementById('numsarea').value;
+    a = Number(a);
+    var b = Math.pow(a, 2);
+    document.getElementById("numsarea").value = b;
 }
 
 
