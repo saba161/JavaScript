@@ -27,7 +27,39 @@ function goBack(){
     window.history.back();
 }
 
- 
+ function factorial(x) 
+{ 
+
+  if (x === 0)
+ {
+    return 1;
+ }
+  return x * factorial(x-1);
+         
+}
+
+
+function sqrt() {
+  var a  = document.getElementById('numsarea');
+  var b = Math.sqrt(a);
+  document.getElementById("numsarea").innerHTML = b;
+}
+
+
+function x2() {
+    var a  = document.getElementById('numsarea');
+    var b = Math.pow(4, 2);
+    document.getElementById("numsarea").innerHTML = b;
+}
+
+
+function toBinary(number) {
+  var result=[], i;
+  for (i=number; i>0; i=parseInt(i/2)){
+    result.push(i%2);
+  }
+  return result.reverse().join("");
+}
 
 
 
@@ -80,36 +112,3 @@ function movehistory() {
 */
 
 
-function factorial(x) 
-{ 
-
-  if (x === 0)
- {
-    return 1;
- }
-  return x * factorial(x-1);
-         
-}
-
-
-function sqrt() {
-  var a  = document.getElementById('numsarea');
-  var b = Math.sqrt(a);
-  document.getElementById("numsarea").innerHTML = b;
-}
-
-
-function x2() {
-    var a  = document.getElementById('numsarea');
-    var b = Math.pow(4, 2);
-    document.getElementById("numsarea").innerHTML = b;
-}
-
-
-function toBinary(number) {
-  var result=[], i;
-  for (i=number; i>0; i=parseInt(i/2)){
-    result.push(i%2);
-  }
-  return result.reverse().join("");
-}
