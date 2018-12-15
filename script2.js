@@ -52,12 +52,17 @@ function x2() {
 }
 
 
-function toBinary(number) {
-  var result=[], i;
-  for (i=number; i>0; i=parseInt(i/2)){
-    result.push(i%2);
-  }
-  return result.reverse().join("");
+function toBinary() {
+    var a  = document.getElementById('numsarea').value;
+    a = Number(a);
+
+
+    var result = [], i;
+    for (i = a; i > 0; i = parseInt(i / 2)){
+    result.push(i % 2);
+    }
+    var ans = result.reverse().join("");
+    document.getElementById("numsarea").value = ans;
 }
 
 
