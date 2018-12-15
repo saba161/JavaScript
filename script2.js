@@ -30,11 +30,9 @@ function goBack(){
  function factorial() 
 { 
     var a  = document.getElementById('numsarea');
-  var b = Math.sqrt(a);
+    var b = Math.sqrt(a);
 
-  factorial2(b);
-
- 
+    factorial2(b);
 }
 
 function factorial2(x) {
@@ -42,8 +40,7 @@ function factorial2(x) {
  {
     return 1;
  }
-  return x * factorial(x-1);
-         
+  return x * factorial( x -1 );      
 }
 
 
